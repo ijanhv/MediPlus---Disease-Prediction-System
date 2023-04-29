@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+@layer components {
+  .form-input {
+    @apply px-2 py-1 bg-indigo-100 font-semibold text-indigo-800 focus:outline-none border-2 w-full border-indigo-600 rounded-2xl;
+  }
+  .form-label {
+    @apply font-semibold text-indigo-800 text-lg my-1;
+  }
+  .home-label {
+    @apply font-bold text-gray-400;
+  }
+  .home-value {
+    @apply font-bold;
+  }
+}
